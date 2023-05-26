@@ -1,5 +1,5 @@
 * {
-    box-sizing: border-boc;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Kumbh Sans', sans-serif;
@@ -70,7 +70,7 @@
     display: flex;
     justify-content: center; 
     padding: 0 1rem;
-    width: 100;
+    width: 100px;
 }
 
 .button{
@@ -120,7 +120,7 @@ button:hover{
         z-index: -1;  
     }
 
-    .navbar_menu.active{
+    .navbar__menu.active{
         background: #131313; 
         top: 100%;
         opacity: 1; 
@@ -129,6 +129,7 @@ button:hover{
         height: 50vh; 
         font-size: 1.6rem; 
     }
+  
 
     #navbar__logo {
         padding-left: 25px;
@@ -142,7 +143,7 @@ button:hover{
         background: #fff;
     }
 
-    .navbar__iten{
+    .navbar__item{
         width: 100%; 
     }
 
@@ -278,7 +279,7 @@ button:hover{
     color: #fff;
   }
 
-  .main_btn:hover:after{
+  .main__btn:hover:after{
     width: 100%; 
   }
 
@@ -352,12 +353,14 @@ button:hover{
   }
 
 
-.services h1 {
+.services h2 {
     background-color: #ff8177;
     background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%,
     #f99185 52%, #cf556c 78%, #b12a5b 100%);
     background-size: 100%;
     margin-bottom: 5rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem; 
     font-size: 2.5rem; 
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -383,7 +386,7 @@ flex-wrap: wrap;
         rgba(0, 0, 0, 0) 0%,
         rgba(17, 17, 17, 0.6) 100%
       ),
-      url('images/Pic3.png');
+      url('/images/Pic3.png');
     background-size: cover;
     position: relative;
     color: #fff;
