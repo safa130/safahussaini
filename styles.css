@@ -252,46 +252,6 @@ button:hover {
   color: #fff;
 }
 
-.main__btn {
-  font-size: 1rem;
-  background-image: linear-gradient(to top, #344AC3 0%, #802BB2 100%);
-  padding: 1.17% 2.67%;
-  border: none;
-  border-radius: 4px;
-  color: #fff;
-  margin-top: 2rem;
-  position: relative;
-  transition: all 0.35s;
-  outline: none;
-}
-
-.main__btn a {
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  text-decoration: none;
-}
-
-.main__btn:after {
-  position: absolute;
-  content: " ";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #10A3A9;
-  transition: all 0.35s;
-  border-radius: 4px;
-}
-
-.main__btn:hover {
-  color: #fff;
-}
-
-.main__btn:hover:after {
-  width: 100%;
-}
-
 .main__img--containter:hover {
   transform: scale(1.075);
   transition: 0.2s ease-in;
@@ -421,6 +381,12 @@ button:hover {
 
   .services__card {
     width: 300px;
+  }
+}
+
+@media screen {
+  .body {
+  background-color: black;
   }
 }
 
