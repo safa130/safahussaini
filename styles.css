@@ -7,7 +7,7 @@
 
 body {
   background-size: cover;
-  background: black;
+  background: #141414;
   height: 100%;
 }
 
@@ -386,7 +386,7 @@ button:hover {
 
 @media screen {
   .body {
-  background-color: #141414;
+  background-color: #131313;
   }
 }
 
