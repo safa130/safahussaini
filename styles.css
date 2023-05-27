@@ -378,8 +378,8 @@ flex-wrap: wrap;
 
 .services__card {
     margin: 1rem;
-    height: 764px;
-    width: 1120px;
+    height: 200px;
+    width: 500px;
     border-radius: 4px;
     background-image: linear-gradient(
         to bottom,
