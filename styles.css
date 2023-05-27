@@ -369,9 +369,20 @@ button:hover {
 }
 
 
-
-
 .sofa {
   padding-left: 10%;
 }
+
+@media (max-width: 480px) {
+  .services h2 {
+    padding-right: 40%;
+
+  }
+   
+}
+
+
+
+
+
 
