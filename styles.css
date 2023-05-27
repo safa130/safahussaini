@@ -386,11 +386,17 @@ button:hover {
 
 @media screen {
   .body {
-  background-color: black;
+  background-color: #141414;
   }
 }
+
 
 .sofa {
   padding-left: 10%;
 }
 
+@media screen {
+  .services h2 {
+    text-align: center; 
+  }
+}
