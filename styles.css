@@ -220,6 +220,7 @@ button:hover {
 .main__container .main__content {
   color: #fff;
   width: 100%;
+  text-align: center; 
 }
 
 .main__container .main__content h1 {
@@ -333,8 +334,8 @@ button:hover {
       #f99185 52%, #cf556c 78%, #b12a5b 100%);
   background-size: 100%;
   margin-bottom: 5rem;
-  margin-left: 7.5rem;
-  margin-right: 7.5rem;
+  margin-left: auto; /* Center the text horizontally */
+  margin-right: auto; 
   font-size: 2.5rem;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -420,4 +421,9 @@ button:hover {
   h1, h2, p {
     text-align: center;
   }
+}
+.main__container .main__content h1,
+.main__container .main__content h2,
+.main__container .main__content p {
+  margin: 0 auto; /* Center the text horizontally */
 }
