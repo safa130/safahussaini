@@ -410,9 +410,14 @@ button:hover {
   
 }
 
-@media screen and (max-width: 60rem) {
-  .navbar__container {
+@media screen and (max-width: 480px) {
+  .navbar {
     justify-content: center;
   }
 }
 
+@media screen and (max-width: 60rem) {
+  .centered-text {
+    text-align: center;
+  }
+}
