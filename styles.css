@@ -417,7 +417,7 @@ button:hover {
 }
 
 @media screen and (max-width: 60rem) {
-  .centered-text {
+  h1, h2, p {
     text-align: center;
   }
 }
