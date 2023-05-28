@@ -352,11 +352,18 @@ button:hover {
 .services__card {
   margin: 1rem;
   border-radius: 0.625rem;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(17, 17, 17, 0.6) 100%),
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
     url('/images/pic3.jpg');
   background-size: cover;
   position: relative;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .services__card:before {
@@ -405,5 +412,11 @@ button:hover {
 @media screen and (max-width: 60rem) {
   .main__container .main__content p  {
     text-align: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services__card {
+    background-position: center; /* Center the image horizontally */
+    background-size: contain; /* Adjust the image size to fit within the screen */
   }
 }
