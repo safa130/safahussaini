@@ -201,7 +201,6 @@ button:hover {
 .main {
   background-color: #141414;
 }
-
 .main__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -216,7 +215,6 @@ button:hover {
   padding-right: 3.125rem;
   padding-left: 3.125rem;
 }
-
 .main__container .main__content {
   color: #fff;
   width: 100%;
@@ -233,6 +231,8 @@ button:hover {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
+
+
 
 .main__container .main__content h2 {
   font-size: 4rem;
@@ -389,41 +389,21 @@ button:hover {
 }
 
 @media screen and (max-width: 60rem) {
-  .main__container .main__content {
+  .main__container .main__content h1  {
     text-align: center;
   }
-  
-  .main__container .main__content h2 {
-    margin-left: center;
-    margin-right: center;
-  }
-
-  .main__container .main__content h1 {
-    margin-left: center;
-    margin-right: center;
-  }
-
-  .main__container .main__content p {
-    margin-left: center;
-    margin-right: center;
-  }
-
-  
 }
 
-@media screen and (max-width: 480px) {
-  .navbar {
-    justify-content: center;
+
+
+@media screen and (max-width: 60rem) {
+  .main__container .main__content h2  {
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 60rem) {
-  h1, h2, p {
+  .main__container .main__content p  {
     text-align: center;
   }
-}
-.main__container .main__content h1,
-.main__container .main__content h2,
-.main__container .main__content p {
-  margin: 0 auto; /* Center the text horizontally */
 }
