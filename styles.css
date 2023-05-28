@@ -387,30 +387,30 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 49.125rem) {
-  .main__content {
+@media screen and (max-width: 60rem) {
+  .main__container .main__content {
     text-align: center;
   }
   
-  .main__content h2 {
-    margin-left: auto;
-    margin-right: auto;
+  .main__container .main__content h2 {
+    margin-left: center;
+    margin-right: center;
   }
 
-  .main__content h1 {
-    margin-left: auto;
-    margin-right: auto;
+  .main__container .main__content h1 {
+    margin-left: center;
+    margin-right: center;
   }
 
-  .main__content p {
-    margin-left: auto;
-    margin-right: auto;
+  .main__container .main__content p {
+    margin-left: center;
+    margin-right: center;
   }
 
   
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 60rem) {
   .navbar__container {
     justify-content: center;
   }
