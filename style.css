@@ -1,6 +1,6 @@
 /* GLOBAL */
 
-:root {
+:root .index {
   --bg-body: hsl(0, 0%, 8%);
   --bg-body2: hsl(0, 0%, 8%);
   --accent: hsl(153, 71%, 59%);
@@ -21,7 +21,7 @@
 }
 
 html,
-body {
+body .index  {
   overflow-x: hidden;
 }
 
@@ -794,8 +794,4 @@ footer {
     padding: 47px 92px;
   }
 }
- 
 
-.resume {
- background-color: black;
-}
